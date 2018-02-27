@@ -1,0 +1,1 @@
+<h3>To Verify Your Account <a href="{{route('sendEmailDone', ["email" => $user->email, "VerifyToken" => $user->VerifyToken ])}}">Click here</a></h3>
